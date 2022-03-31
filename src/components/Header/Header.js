@@ -7,8 +7,9 @@ const Header = () => {
       <h1>welcome to react router.</h1>
 
       <nav>
-        <Link to="/">Home</Link>
         <Link to="/about">About</Link>
+        <Link to="/">Home</Link>
+        <Link to="/posts">Posts</Link>
         <Link to="/friends">Friends</Link>
       </nav>
     </div>
